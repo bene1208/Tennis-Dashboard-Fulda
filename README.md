@@ -20,6 +20,10 @@ Originally, it was planned to create a Tennis & Padel-Dashboard. Due to the fact
 
 
 ### Installations & Starting the Dashboard:
+Option A: 
+Using link to the dashboard: https://tennis-dashboard-fulda.streamlit.app
+OR
+Option B:
 1. Unpacking .zip file.
 2. Installing necessary requirements:  
    `pip install -r requirements.txt`
