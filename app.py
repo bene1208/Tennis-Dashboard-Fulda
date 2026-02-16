@@ -184,7 +184,7 @@ if page == "📊 Dashboard":
 
         st.subheader("Interaktive Vereinskarte")
         st.pydeck_chart(pdk.Deck(
-            map_style='mapbox://styles/mapbox/light',
+            map_style='light',
             initial_view_state=pdk.ViewState(latitude=lat, longitude=lon, zoom=zoom, pitch=0),
             layers=[pdk.Layer(
                 'ScatterplotLayer',
@@ -258,3 +258,4 @@ elif page == "🔍 Vereinsdetails":
         else:
 
             st.info("Für diesen Verein wurden keine Ansprechpartner im Detail-Datensatz gefunden.")
+
